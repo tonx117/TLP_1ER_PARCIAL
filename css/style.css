@@ -1,7 +1,6 @@
 html {
   --color-tema: rgb(190, 117, 190);
   --color-tema-secundario: rgb(255, 105, 255);
-  --color-secundario: ;
   --color-texto: rgb(0, 0, 0);
   --sombra-nav: rgb(0, 0, 0);
 }
@@ -18,4 +17,9 @@ body {
   font-family: "Bruno Ace SC", cursive;
   background-color: var(--color-tema);
   color: var(--color-texto);
+  padding-top: 70px;
+}
+
+.card {
+  margin: 10px;
 }

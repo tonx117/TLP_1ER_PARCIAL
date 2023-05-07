@@ -1,0 +1,17 @@
+.titulo-perfil {
+  display: flex;
+  justify-content: center;
+}
+
+.fotoperfil {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 950px) {
+  .titulo-perfil {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}

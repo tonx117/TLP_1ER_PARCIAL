@@ -8,7 +8,13 @@
   justify-content: center;
 }
 
-@media (max-width: 950px) {
+.fotoimg {
+  border: 5px solid black;
+  border-radius: 150px;
+  box-shadow: 0 4px 5px var(--sombra-nav);
+}
+
+@media (max-width: 900px) {
   .titulo-perfil {
     display: flex;
     justify-content: center;

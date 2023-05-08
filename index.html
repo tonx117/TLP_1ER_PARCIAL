@@ -11,6 +11,7 @@
     />
 
     <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="shortcut icon" href="./img/portfolio.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +26,12 @@
     />
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sobremi.css" />
     <link rel="stylesheet" href="./css/perfil.css" />
+    <link rel="stylesheet" href="./css/educacion.css" />
+    <link rel="stylesheet" href="./css/habilidades.css" />
+    <link rel="stylesheet" href="./css/proyectos.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <script defer src="./js/app.js"></script>
   </head>
 
@@ -33,8 +39,11 @@
     <header class="top-header">
       <!-- place navbar here -->
       <nav class="nav">
-        <a class="logo" href="#">
-          <img src="./img/Visual_Studio_Code_1.35_icon.svg.png" alt="programador" />
+        <a class="logo" href="#perfil">
+          <img
+            src="./img/Visual_Studio_Code_1.35_icon.svg.png"
+            alt="programador"
+          />
           <div>
             Tomas Luis <br />
             Valdez Caeiro
@@ -48,58 +57,135 @@
           <button class="close-menu" aria-label="cerrar menu">
             <img src="./img/close.png" alt="cerrar menu" />
           </button>
-          <li><a href="#Perfil">Disabled link</a></li>
-          <li><a href="#Habilidades">Link</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
           <li>
-            <a href="#Experiencias">Disabled link</a>
+            <a href="proyectos.html">Proyectos</a>
           </li>
           <li>
-            <a href="#Sociales" aria-current="page">Active link</a>
+            <a href="#Sociales" aria-current="page">Sociales</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="row">
-        <div class="col-12">
-          <section class="perfil">
-            <div class="titulo-perfil">
-              <h1>
-                BIENVENIDOS A MI PORTFOLIO <br />
-                TOMAS LUIS VALDEZ CAEIRO
-              </h1>
-            </div>
-            <div class="fotoperfil">
-              <img src="./img/fotor_2023-5-6_11_18_58.png" alt="Fotoperfil" />
-            </div>
-          </section>
-        </div>
-      </div>
-      <div class="row">
-        <section class="habilidades">
-           <div class="card text-center">
-             <img class="card-img-top" src="holder.js/100px180/" alt="Title">
-             <div class="card-body">
-               <h4 class="card-title">Title</h4>
-               <p class="card-text">Body</p>
-             </div>
-           </div>
-           </div>
-            </div>
+      <div class="col-12">
+        <section class="perfil">
+          <div class="titulo-perfil">
+            <h1>
+              BIENVENIDOS A MI PORTFOLIO <br />
+              TOMAS LUIS VALDEZ CAEIRO
+            </h1>
+          </div>
+          <div class="fotoperfil">
+            <img
+              class="fotoimg"
+              src="./img/fotor_2023-5-6_11_18_58.png"
+              alt="Fotoperfil"
+            />
+          </div>
         </section>
       </div>
-<div class="row">
-    <section class="educacion"></section></section>
-</div >
-      <div class="row">
-        <section class="proyectos"></section>
+
+      <h2>SOBRE MI</h2>
+
+      <div class="col-12 pt-2">
+        <section class="sobre-mi">
+          <div class="contenedor rounded">
+            <p>
+              Mi nombre es Tomas Luis Valdez Caeiro, soy un desarrollador
+              Frontend de 21 años de edad, nacido en formosa capital, argentina.
+              egresado de la E.P.E.T N°1
+            </p>
+            <p>
+              Mi experiencia laboral fue variada, tengo experiencia en uso de
+              maquinas industriales, como tecnico electromecanico, profesor
+              particular de ingles y como desarrollador Frontend, busco cada vez
+              mas conocimiento para poder plasmarlo en mis proyectos.
+            </p>
+          </div>
+        </section>
       </div>
-      
-      
+
+      <h2>HABILIDADES</h2>
+
+      <div class="col-12 pt-2">
+        <section class="habilidades">
+          <div class="contenedor rounded">
+            <div class="contenido-habilidades">
+              <div class="row">
+                <div class="col-6">
+                  <div class="languages-webtechnologies">
+                    <p>Programming Languages</p>
+                    <div class="imagenes-habilidades">
+                      <img src="./img/javascript_logo.png" alt="js" />
+                    </div>
+                    <p>Web Technologies</p>
+                    <div class="imagenes-habilidades">
+                      <img src="./img/5968242.png" alt="" />
+                      <img src="./img/html-5.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <p>Project Management</p>
+                  <div class="imagenes-habilidades">
+                    <img src="./img/trello.png" alt="" />
+                    <img width="120" src="./img/jira.png" alt="" />
+                  </div>
+                  <p>Version Control</p>
+                  <div class="imagenes-habilidades">
+                    <img src="./img/Git.png" alt="" />
+                    <img src="./img/GitHub.png" alt="" />
+                  </div>
+                </div>
+                <p>Frameworks</p>
+                <div class="imagenes-habilidades">
+                  <img src="./img/nodejs.png" alt="" />
+                  <img src="./img/bootstrap.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <h2>EDUCACION</h2>
+
+      <div class="col-12 pt-2">
+        <section class="educacion">
+          <div class="contenedor rounded">
+            <p>
+              Recibido de la E.P.E.T N°1 con Titulo tecnico en equipos e
+              instalaciones electromecanicas
+            </p>
+            <p>
+              Recibido de New Millenium con Titulo First de Cambridge en ingles
+            </p>
+            <p>
+              Recibido del Instituto Politecnico Formosa con Titulo tecnico en
+              desarrollo de software multiplataforma
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
       <!-- place footer here -->
       © Made by Tomas Luis Valdez Caeiro
+      <div class="footer">
+        <a target="_blank" href="https://github.com/tonx117"
+          ><img src="./img/githubicono.png" alt="github"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/tomas.valdez.14811"
+          ><img src="./img/facebook.png" alt="facebook"
+        /></a>
+        <a
+          target="_blank"
+          href="https://instagram.com/tomas_valdez01?igshid=ZGUzMzM3NWJiOQ=="
+          ><img src="./img/instagram.png" alt="instagram"
+        /></a>
+      </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script

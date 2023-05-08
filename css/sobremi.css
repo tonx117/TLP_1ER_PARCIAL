@@ -1,7 +1,8 @@
-.educacion {
+.sobre-mi {
+  display: flex;
   text-align: center;
 }
 
-.educacion p {
+.sobre-mi p {
   margin: 10px;
 }

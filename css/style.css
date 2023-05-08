@@ -1,8 +1,10 @@
 html {
-  --color-tema: rgb(190, 117, 190);
-  --color-tema-secundario: rgb(255, 105, 255);
+  --color-tema: rgb(217, 208, 222);
+  --color-tema-secundario: rgb(160, 70, 104);
   --color-texto: rgb(0, 0, 0);
-  --sombra-nav: rgb(0, 0, 0);
+  --color-texto-secundario: rgb(255, 255, 255);
+  --sombra-nav: rgb(12, 23, 19);
+  --color-cuadros: rgb(188, 141, 160);
 }
 .top-header {
   position: fixed;
@@ -20,6 +22,13 @@ body {
   padding-top: 70px;
 }
 
-.card {
-  margin: 10px;
+.contenedor {
+  background-color: var(--color-cuadros);
+  margin: 40px;
+  box-shadow: 0 4px 5px var(--sombra-nav);
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
 }

@@ -15,11 +15,18 @@ html {
   width: 100%;
 }
 
+section[id] {
+  scroll-margin-top: 70px;
+}
+
 body {
   font-family: "Bruno Ace SC", cursive;
   background-color: var(--color-tema);
   color: var(--color-texto);
   padding-top: 70px;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .contenedor {

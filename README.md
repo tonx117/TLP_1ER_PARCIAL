@@ -22,4 +22,4 @@ Puedes explorar mis proyectos en este repositorio para ver ejemplos de mi trabaj
 
 Si tienes alguna pregunta o estás interesado en colaborar en un proyecto, no dudes en contactarme a través de mi correo electrónico Tomasvaldez02@gmail.
 
-# ¡Gracias por visitar mi portafolio de desarrollador web multiplataforma!
+# ¡Gracias por visitar mi portafolio personal!
